@@ -13,7 +13,7 @@ $(document).ready(function(){
             arrows: false,
             centerMode: true,
             centerPadding: '10px',
-            slidesToShow: 3
+            slidesToShow: 2
           }
         },
         
@@ -23,7 +23,7 @@ $(document).ready(function(){
             arrows: false,
             centerMode: true,
             centerPadding: '10px',
-            slidesToShow: 3
+            slidesToShow: 2
           }
         },
         {
@@ -32,7 +32,7 @@ $(document).ready(function(){
             arrows: false,
             centerMode: true,
             centerPadding: '5px',
-            slidesToShow: 2
+            slidesToShow: 1
           }
           
         },
