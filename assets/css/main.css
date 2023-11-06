@@ -198,7 +198,7 @@ ul,li{
 .offer__logo{
     border-radius: 5px;
     padding: 5px;
-    border: 1px solid #FD7E14;
+    /* border: 1px solid #FD7E14; */
 }
 .offer__text{
     width: 325px;
