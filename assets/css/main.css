@@ -183,41 +183,21 @@ ul,li{
 .offer__set{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-}
-.offer__column{
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-}
-.offer__wrapp{
-    display: flex;
-    align-items: center;
-    gap: 40px;
+    justify-content: center;
+    gap: 250px;
 }
 .offer__logo{
     border-radius: 5px;
     padding: 5px;
-    /* border: 1px solid #FD7E14; */
-}
-.offer__text{
-    width: 325px;
     
 }
+
 #fullscreen-video {
     object-fit: cover;
-    width: 250px;
-    height: 250px;
+    width: 290px;
+    height: 290px;
 }
-.offer__video{
-   margin-right: 30px;
-}
-#offer__video{
-    width: 390px;
-    height: 550px;
-    border-radius: 10px;
-    object-fit: cover;
-}
+
 .btn__down{
     display: flex;
     align-items: center;
@@ -269,7 +249,7 @@ ul,li{
     width: 260px;
     margin: 0 auto;
     font-size: 16px;
-    line-height: 150%; 
+    line-height: 130%; 
 }
 .advantages{
     padding: 60px 0;
@@ -482,7 +462,10 @@ ul,li{
     background: #000;
     fill: white;
 }
-.footer__items:hover .footer__items_img {
+.footer__items_text{
+    font-size: 15px;
+}
+.footer__items:hover svg path {
     fill: #fff;
 }
 .footer__text{
@@ -608,7 +591,7 @@ ul,li{
         z-index: 999;
         justify-content: center;
         top: 80px;
-        right: 20px;
+       /*  right: 20px; */
         width: 200px;
         height: auto;
         margin-bottom: -185px;
@@ -727,7 +710,21 @@ ul,li{
     #about__video{
         width: 100%;
     }
-    
+    .services__set{
+        gap: 80px;
+    }
+    .advantages__set{
+        gap: 80px;
+    }
+    .advantages__set_mod{
+        padding-top: 80px;
+    }
+    .advantages__set_mod{
+        gap: 80px;
+    }
+    .footer__set_mob{
+        padding:  0;
+    }
 }
 /*458-575*/
 @media screen and (max-width:575px){
@@ -765,7 +762,11 @@ ul,li{
         	max-width: 100%;
 	}
     .menu{
+       
         margin-right: -150px;
+    }
+    .header__set{
+        height: 46px;
     }
     .social__set{
         gap: 10px;
@@ -774,6 +775,9 @@ ul,li{
     .header__btn{
         font-size: 12px;
         padding: 5px 10px;
+    }
+    .footer__wrapps{
+        flex-direction: column;
     }
 }
 /*320-374*/
@@ -796,5 +800,8 @@ ul,li{
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
+    }
+    .menu{
+        width: auto;
     }
 }
